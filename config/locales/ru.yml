@@ -60,8 +60,13 @@ ru:
     few: "%{count} голоса"
     other: "%{count} голосов"
   star:
+    zero: "0"
     one: "1"
+    many: "%{count}"
+    two: "%{count}"
+    few: "%{count}"
     other: "%{count}"
+
 
   feedback: Обратная связь
   stars: Звёзды
