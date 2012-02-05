@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f55ffe85-77ca-48f4-b0d9-8db20e1f937b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spree_reviews_hooks.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/review_settings/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/review_settings/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_rating.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_rating.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spree_reviews.rb" afterPath="$PROJECT_DIR$/lib/spree_reviews.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spree-reviews.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,19 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviews_admin_configurations_menu.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="reviews_admin_configurations_menu.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/overrides/reviews_admin_configurations_menu.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reviews_extension_tasks.rake" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/tasks/reviews_extension_tasks.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="52" selection-start="329" selection-end="337" vertical-scroll-proportion="0.2580645">
+            <state line="2" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.065972224">
               <folding />
             </state>
           </provider>
@@ -207,24 +194,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree-reviews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree-reviews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -778,14 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/overrides/reviews_admin_configurations_menu.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/reviews_extension_tasks.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="329" selection-end="337" vertical-scroll-proportion="0.2580645">
+        <state line="2" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.065972224">
           <folding />
         </state>
       </provider>
