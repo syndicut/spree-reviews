@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f55ffe85-77ca-48f4-b0d9-8db20e1f937b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f55ffe85-77ca-48f4-b0d9-8db20e1f937b" name="Default" comment="" />
     <ignored path="spree-reviews.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,7 +98,7 @@
       <file leaf-file-name="reviews_admin_configurations_menu.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/overrides/reviews_admin_configurations_menu.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.065972224">
+            <state line="4" column="42" selection-start="206" selection-end="230" vertical-scroll-proportion="0.13194445">
               <folding />
             </state>
           </provider>
@@ -747,7 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/overrides/reviews_admin_configurations_menu.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.065972224">
+        <state line="4" column="42" selection-start="206" selection-end="230" vertical-scroll-proportion="0.13194445">
           <folding />
         </state>
       </provider>
