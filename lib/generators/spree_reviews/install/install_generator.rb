@@ -11,7 +11,7 @@ module SpreeReviews
       # end
 
       def add_migrations
-        run 'rake railties:install:migrations FROM=spree_reviews'
+        run 'rake railties:install:migrations FROM=spree_reviews_engine'
       end
 
       def run_migrations
