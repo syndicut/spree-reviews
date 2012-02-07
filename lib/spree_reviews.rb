@@ -2,7 +2,7 @@ require 'spree_core'
 
 
 module SpreeReviews
-  
+
   class AbilityDecorator
     include CanCan::Ability
 
@@ -19,6 +19,11 @@ module SpreeReviews
   class Engine < Rails::Engine
 
     config.autoload_paths += %W(#{config.root}/lib)
+
+
+    initializer :assets do |config|
+      Rails.application.config.assets.precompile += %w( reviews.css jquery.rating.js )
+    end
 
     def self.activate
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
