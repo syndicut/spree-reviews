@@ -29,7 +29,7 @@
       <td>
         <%= review.title %>
         <% if review.reviewable %>
-          <%= t('for') %> <%= t(review.reviewable.class.name.downcase ) %> <%= link_to review.reviewable.name, reviewable_path(review.reviewable) %>
+          <%= t('for') %> <%= t(review.reviewable.class.name.downcase ) %> <%= link_to review.reviewable.name, reviewable_url(review.reviewable) %>
 
         <% end %>
       </td>

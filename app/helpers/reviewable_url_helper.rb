@@ -1,11 +1,11 @@
 module ReviewableUrlHelper
 
-  def reviewable_path(reviewable)
+  def reviewable_url(reviewable)
     case reviewable.class.name
       when 'Taxon'
-        nested_taxons_path(reviewable.permalink)
+        nested_taxons_url(reviewable.permalink)
       else
-        polymorphic_path(reviewable)
+        polymorphic_url(reviewable)
     end
   end
 end
