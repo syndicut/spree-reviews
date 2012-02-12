@@ -10,7 +10,7 @@ class Admin::ReviewsController < Admin::ResourceController
     r = Review.find(params[:id])
 
     if r.update_attribute(:approved, true)
-       r.product.recalculate_rating
+       r.reviewable.recalculate_rating
        flash[:notice] = t("info_approve_review")
     else
        flash[:error] = t("error_approve_review")

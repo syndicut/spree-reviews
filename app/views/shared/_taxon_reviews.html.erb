@@ -1,0 +1,12 @@
+<% if @taxon.root and @taxon.root.name == 'brand' %>
+    <div id="reviews">
+      <%= render :partial => 'shared/rating', :locals => {:product => @taxon, :review => 0} %>
+      <% for review in @taxon.reviews.approval_filter %>
+          <%= render :partial => 'shared/review', :locals => {:review => review} %>
+      <% end %>
+      <% if !Spree::Reviews::Config[:require_login] || current_user %>
+          <%= link_to t('write_your_own_review'), new_taxon_review_path(:taxon_permalink=> @taxon.permalink), :class => "button",
+                      :rel => "nofollow,noindex" %>
+      <% end %>
+    </div>
+<% end %>

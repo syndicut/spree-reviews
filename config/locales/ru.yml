@@ -13,7 +13,7 @@ ru:
       review:
         zero: "0 отзывов"
         one: "%{count} отзыв"
-        few: "%{count} отзыва"
+        few: "%{count} отзывов"
         other: "%{count} отзывов"
   
   write_your_own_review: Оставьте свой отзыв

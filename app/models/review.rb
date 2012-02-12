@@ -1,5 +1,5 @@
 class Review < ActiveRecord::Base
-  belongs_to :product
+  belongs_to :reviewable, :polymorphic => true
   belongs_to :user
   has_many   :feedback_reviews
 
@@ -13,7 +13,7 @@ class Review < ActiveRecord::Base
 
   scope :oldest_first, :order => "created_at asc"
   scope :preview,      :limit => Spree::Reviews::Config[:preview_size], :order=>"created_at desc"
-  attr_protected :user_id, :product_id, :ip_address
+  attr_protected :user_id, :reviewable_id, :reviewable_type, :ip_address
 
   def feedback_stars
     return 0 if feedback_reviews.count <= 0

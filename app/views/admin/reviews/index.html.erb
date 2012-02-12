@@ -28,8 +28,9 @@
       </td>
       <td>
         <%= review.title %>
-        <% if review.product %>
-          <%= t('for') %> <%= link_to review.product.name, product_path(review.product) %>
+        <% if review.reviewable %>
+          <%= t('for') %> <%= t(review.reviewable.class.name.downcase ) %> <%= link_to review.reviewable.name, reviewable_path(review.reviewable) %>
+
         <% end %>
       </td>
       <td width="50%">
